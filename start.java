@@ -50,6 +50,27 @@ char currency = '$';
 System.out.println("Number of items: " + items);
 System.out.println("Cost per item: " + costPerItem + currency);
 System.out.println("Total cost = " + totalCost + currency);
+
+
+String firstName = "Jane";
+String lastName = "Smith";
+System.out.println("Full name: " + firstName + " " + lastName);
+System.out.println("First name: " + firstName);
+System.out.println("Last name: " + lastName);
+System.out.println("Name length: " + (firstName.length() + lastName.length())); 
+System.out.println(firstName.concat(lastName));
+
+int aa=10;
+int bb=20;
+System.out.println(Math.max(aa, bb));
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (String car : cars) {
+  System.out.println(car);
+}int[] numbers = {10, 20, 30, 40};
+
+for (int i = 0; i < numbers.length; i++) {
+  System.out.println(numbers[i]);
+}
  
 
 
