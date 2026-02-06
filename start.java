@@ -71,6 +71,12 @@ for (String car : cars) {
 for (int i = 0; i < numbers.length; i++) {
   System.out.println(numbers[i]);
 }
+
+
+int [] nums = {1, 2, 3, 4, 5};
+for (int num : nums) {
+    System.out.print(num + " ");
+}
  
 
 
