@@ -38,7 +38,7 @@ class Company{
 public class LabTwo3 {
     public static void main(String[] args) {
 
-        Company company = new Company("Tech Solutions");
+        Company company = new Company("BSS");
    
     
       
