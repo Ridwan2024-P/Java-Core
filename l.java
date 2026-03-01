@@ -1,12 +1,13 @@
 class CallMe {
-    synchronized void call(String msg) {
-        
-        System.out.println(msg);
+    void call(String msg) {
+        System.out.print("[");
         try {
             Thread.sleep(1000);
+            System.out.print(msg);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("]");
     }
 }
 
@@ -22,11 +23,13 @@ class Caller implements Runnable {
     }
 
     public void run() {
-        target.call(msg);
+        synchronized (target) {
+            target.call(msg);
+        }
     }
 }
 
-public class l{
+public class l {
     public static void main(String[] args) throws InterruptedException {
         CallMe cm = new CallMe();
         Caller c1 = new Caller("Hello", cm);
@@ -36,5 +39,7 @@ public class l{
         c1.t.start();
         c2.t.start();
         c3.t.start();
+
+      
     }
 }
