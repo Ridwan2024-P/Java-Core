@@ -1,8 +1,8 @@
-
+import java.lang.reflect.Array;
 import java.net.SocketOption;
 import java.util.ArrayList;
 
-public class java1Main {
+public class javaMain {
     public static void main(String[] args) {
 
 Box<String ,String> b = new Box<>("10" ,"10");
@@ -12,6 +12,14 @@ Box <String, Integer> bb =new Box<>("RID",10);
 bb.show();
 Box <Integer, Double> bbb = new Box<>(10,0.1);
 bbb.show();
+System.out.println(bbb.getA()+ bbb.getB());
+
+if(bbb.getA().equals(bbb.getB())){
+    System.out.println("Equal");
+}
+else {
+    System.out.println("Not");
+}
 
     }
 }
@@ -38,7 +46,7 @@ class Box<T ,V>{
       System.out.println(b);
     }
 
-}
 
+}
 
 
