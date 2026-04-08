@@ -1,6 +1,6 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class cal {
+public class call1 {
     public static void main(String[] args) {
     cal<Integer,Double,Float> c = new cal<>(10,10.2,5.56f);
     System.out.println("Sum : "+(c.getA()+c.getB()+c.getC()));
