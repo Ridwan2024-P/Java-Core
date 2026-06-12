@@ -57,7 +57,6 @@ This repository contains my **Java Core Programming learning materials and pract
 * List vs Set vs Map
 
 ---
----
 
 ## 🎯 Learning Purpose
 
