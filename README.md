@@ -57,25 +57,6 @@ This repository contains my **Java Core Programming learning materials and pract
 * List vs Set vs Map
 
 ---
-
-## 💻 Code Structure (Practice Files)
-
-```id="corejava"
-src/
-│
-├── InnerClassExample.java
-├── VarargsExample.java
-├── PolymorphismExample.java
-├── EnumExample.java
-├── ThreadExample.java
-├── RunnableExample.java
-├── SynchronizationExample.java
-├── GenericClass.java
-├── ArrayListDemo.java
-├── HashMapDemo.java
-└── Main.java
-```
-
 ---
 
 ## 🎯 Learning Purpose
